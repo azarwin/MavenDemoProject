@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test thread-count="5" name="TestNG Testcases(failed)">
+    <classes>
+      <class name="com.qa.easy.testcases.Demotest">
+        <methods>
+          <include name="sikuliimg"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.easy.testcases.Demotest -->
+    </classes>
+  </test> <!-- TestNG Testcases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
