@@ -19,6 +19,8 @@ public class TestBase {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
+	public static String Link;
+	public static String Location;
 	
 	public TestBase(){
 		try {
@@ -41,7 +43,9 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver","F:\\Installation\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
 		}
-				
+	}
+	
+	public static void LaunchURL(String Link) {
 		e_driver = new EventFiringWebDriver(driver);
 		// Now create object of EventListerHandler to register it with EventFiringWebDriver
 		eventListener = new WebEventListener();
@@ -51,9 +55,19 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);	
 		
-		driver.get(prop.getProperty("url"));
-		
+		switch(Link) {
+		case "url" : driver.get(prop.getProperty("url"));
+		break;
+		case "url1" : driver.get(prop.getProperty("url"));
+		break;
+		}
 	}
+	
+	public static String Filedownload(String location) {
+		String filepath = System.getProperty(location);
+		return filepath;
+	}
+	
 }

@@ -13,6 +13,7 @@ public class TestNGtest extends TestBase{
 	
 	Demopage demopage;
 	TestNGPage testNGPage;
+	String Link = "url";
 	
 	public TestNGtest() {
 		super();

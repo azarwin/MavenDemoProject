@@ -20,6 +20,7 @@ public class Demotest extends TestBase{
 	
 	Demopage demopage;
 	String sheetName = "Sheet1";
+	String Link = "url";
 	
 	public Demotest() throws IOException {
 		super();		
@@ -28,6 +29,7 @@ public class Demotest extends TestBase{
 	@BeforeMethod
 	public void setUp(){
 		initialization();
+		LaunchURL(Link);
 		demopage = new Demopage();	
 	}
 	
