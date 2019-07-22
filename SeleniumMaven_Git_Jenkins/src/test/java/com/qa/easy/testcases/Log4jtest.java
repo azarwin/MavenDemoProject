@@ -12,6 +12,7 @@ public class Log4jtest extends TestBase {
 	
 	Log4jpage log4jpage;
 	static Logger log;
+	String Link = "url1";
 	
 	public Log4jtest() {
 		super();
