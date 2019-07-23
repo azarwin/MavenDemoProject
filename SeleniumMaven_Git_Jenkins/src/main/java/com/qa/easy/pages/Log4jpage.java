@@ -8,10 +8,10 @@ import com.qa.easy.testbase.TestBase;
 
 public class Log4jpage extends TestBase{
 	
-	@FindBy(linkText = "log4j - Sample Program")
+	@FindBy(partialLinkText = "log4j - Sample Program")
 	static WebElement SampleProgram;
 	
-	@FindBy(linkText = "PDF")
+	@FindBy(partialLinkText = "PDF")
 	static	WebElement download;
 	
 	public Log4jpage() {

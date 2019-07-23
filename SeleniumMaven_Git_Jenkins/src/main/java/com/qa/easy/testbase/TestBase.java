@@ -60,7 +60,7 @@ public class TestBase {
 		switch(Link) {
 		case "url" : driver.get(prop.getProperty("url"));
 		break;
-		case "url1" : driver.get(prop.getProperty("url"));
+		case "url1" : driver.get(prop.getProperty("url1"));
 		break;
 		}
 	}

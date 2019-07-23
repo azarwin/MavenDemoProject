@@ -22,6 +22,7 @@ public class TestNGtest extends TestBase{
 	@BeforeMethod
 	public void setUp(){
 		initialization();
+		LaunchURL(Link);
 		demopage = new Demopage();
 		testNGPage = new TestNGPage();
 		demopage.TestNG();

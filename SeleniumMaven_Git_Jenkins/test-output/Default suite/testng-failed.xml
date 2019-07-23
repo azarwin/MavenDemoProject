@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.easy.testcases.Demotest">
+      <class name="com.qa.easy.testcases.Log4jtest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="cbtLogo"/>
+          <include name="tearDown"/>
+          <include name="downloadPDF"/>
         </methods>
-      </class> <!-- com.qa.easy.testcases.Demotest -->
+      </class> <!-- com.qa.easy.testcases.Log4jtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
