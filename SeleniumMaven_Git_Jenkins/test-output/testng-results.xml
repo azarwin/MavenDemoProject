@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29589" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:19Z">
+  <suite name="Default suite" duration-ms="12723" started-at="2019-07-24T08:23:21Z" finished-at="2019-07-24T08:23:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29589" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:19Z">
+    <test name="Default test" duration-ms="12723" started-at="2019-07-24T08:23:21Z" finished-at="2019-07-24T08:23:34Z">
       <class name="com.qa.easy.testcases.Log4jtest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="setUp" is-config="true" duration-ms="12033" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.Log4jtest@20398b7c]" name="setUp" is-config="true" duration-ms="11977" started-at="2019-07-24T08:23:21Z" finished-at="2019-07-24T08:23:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logspclick()[pri:1, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="logspclick" duration-ms="63" started-at="2019-07-24T06:55:02Z" finished-at="2019-07-24T06:55:02Z">
+        <test-method status="PASS" signature="logspclick()[pri:1, instance:com.qa.easy.testcases.Log4jtest@20398b7c]" name="logspclick" duration-ms="58" started-at="2019-07-24T08:23:33Z" finished-at="2019-07-24T08:23:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logspclick -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="tearDown" is-config="true" duration-ms="705" started-at="2019-07-24T06:55:02Z" finished-at="2019-07-24T06:55:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="setUp" is-config="true" duration-ms="11861" started-at="2019-07-24T06:55:03Z" finished-at="2019-07-24T06:55:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="downloadPDF()[pri:2, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="downloadPDF" duration-ms="4155" started-at="2019-07-24T06:55:15Z" finished-at="2019-07-24T06:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- downloadPDF -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="tearDown" is-config="true" duration-ms="751" started-at="2019-07-24T06:55:19Z" finished-at="2019-07-24T06:55:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.Log4jtest@20398b7c]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-07-24T08:23:33Z" finished-at="2019-07-24T08:23:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
