@@ -20,12 +20,12 @@ import com.qa.easy.testbase.TestBase;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 
-	public void beforeNavigateTo(String url, WebDriver driver) {
-		System.out.println("Before navigating to: '" + url + "'");
+	public void beforeNavigateTo(String Link, WebDriver driver) {
+		System.out.println("Before navigating to: '" + Link + "'");
 	}
 
-	public void afterNavigateTo(String url, WebDriver driver) {
-		System.out.println("Navigated to:'" + url + "'");
+	public void afterNavigateTo(String Link, WebDriver driver) {
+		System.out.println("Navigated to:'" + Link + "'");
 	}
 
 	public void beforeChangeValueOf(WebElement element, WebDriver driver) {

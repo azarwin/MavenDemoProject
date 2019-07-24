@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37638" started-at="2019-07-23T08:46:43Z" finished-at="2019-07-23T08:47:20Z">
+  <suite name="Default suite" duration-ms="29589" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:19Z">
     <groups>
-      <group name="grp">
-        <method signature="TestNGtest.TestNGLinkHighlight()[pri:1, instance:com.qa.easy.testcases.TestNGtest@5cb9f472]" name="TestNGLinkHighlight" class="com.qa.easy.testcases.TestNGtest"/>
-      </group> <!-- grp -->
     </groups>
-    <test name="Default test" duration-ms="37638" started-at="2019-07-23T08:46:43Z" finished-at="2019-07-23T08:47:20Z">
-      <class name="com.qa.easy.testcases.TestNGtest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.TestNGtest@5cb9f472]" name="setUp" is-config="true" duration-ms="36765" started-at="2019-07-23T08:46:43Z" finished-at="2019-07-23T08:47:20Z">
+    <test name="Default test" duration-ms="29589" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:19Z">
+      <class name="com.qa.easy.testcases.Log4jtest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="setUp" is-config="true" duration-ms="12033" started-at="2019-07-24T06:54:50Z" finished-at="2019-07-24T06:55:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestNGLinkHighlight()[pri:1, instance:com.qa.easy.testcases.TestNGtest@5cb9f472]" name="TestNGLinkHighlight" duration-ms="58" started-at="2019-07-23T08:47:20Z" finished-at="2019-07-23T08:47:20Z">
+        <test-method status="PASS" signature="logspclick()[pri:1, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="logspclick" duration-ms="63" started-at="2019-07-24T06:55:02Z" finished-at="2019-07-24T06:55:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestNGLinkHighlight -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.TestNGtest@5cb9f472]" name="tearDown" is-config="true" duration-ms="793" started-at="2019-07-23T08:47:20Z" finished-at="2019-07-23T08:47:20Z">
+        </test-method> <!-- logspclick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="tearDown" is-config="true" duration-ms="705" started-at="2019-07-24T06:55:02Z" finished-at="2019-07-24T06:55:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.easy.testcases.TestNGtest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="setUp" is-config="true" duration-ms="11861" started-at="2019-07-24T06:55:03Z" finished-at="2019-07-24T06:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="downloadPDF()[pri:2, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="downloadPDF" duration-ms="4155" started-at="2019-07-24T06:55:15Z" finished-at="2019-07-24T06:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadPDF -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.easy.testcases.Log4jtest@4fe3c938]" name="tearDown" is-config="true" duration-ms="751" started-at="2019-07-24T06:55:19Z" finished-at="2019-07-24T06:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.easy.testcases.Log4jtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

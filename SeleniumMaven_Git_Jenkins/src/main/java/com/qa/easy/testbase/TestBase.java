@@ -19,13 +19,13 @@ public class TestBase {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
-	public static String Link;
+	//public static String Link;
 	public static String Location;
 	
 	public TestBase(){
 		try {
 			prop = new Properties();
-			FileInputStream inp = new FileInputStream("F:\\Azar\\SeleniumMaven_Git_Jenkins"
+			FileInputStream inp = new FileInputStream("C:\\Users\\AZARUDEEN\\git\\MavenDemoProject\\SeleniumMaven_Git_Jenkins"
 					+ "\\src\\main\\java\\com\\qa\\easy\\config\\config.properties");
 			prop.load(inp);
 		} catch (FileNotFoundException e) {
@@ -58,9 +58,9 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);	
 		
 		switch(Link) {
-		case "url" : driver.get(prop.getProperty("url"));
+		case "TPurl" : driver.get(prop.getProperty("tpurl"));
 		break;
-		case "url1" : driver.get(prop.getProperty("url1"));
+		case "url" : driver.get(prop.getProperty("url"));
 		break;
 		}
 	}
