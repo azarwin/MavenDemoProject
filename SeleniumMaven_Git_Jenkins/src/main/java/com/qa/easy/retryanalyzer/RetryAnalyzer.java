@@ -13,6 +13,6 @@ public boolean retry(ITestResult result) {
 		counter++;
 		return true;
 		}
-	return true;
+	return false;
 	}
 }

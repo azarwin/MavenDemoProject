@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
   <listeners>
     <listener class-name="com.qa.easy.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.qa.easy.retryanalyzer.RetryTransform"/>
   </listeners>
   <test thread-count="5" name="TestNG Testcases(failed)">
     <classes>
