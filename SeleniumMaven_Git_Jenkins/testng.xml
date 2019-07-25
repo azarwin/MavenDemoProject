@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite">
-	<listeners>
+	<!-- <listeners>
 		<listener class-name="com.qa.easy.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+	</listeners> -->
   <test thread-count="5" name="TestNG Testcases">
     <packages>
-            <package name="com.qa.easy.testcases" />
+    		<package name="com.qa.easy.testcases" />
      </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
