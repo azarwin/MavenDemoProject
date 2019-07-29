@@ -40,10 +40,10 @@ public class Demopage extends TestBase {
 		return CBTImage.isDisplayed();
 	}
 	
-	public boolean sikuliimgcmp() {
+	public Boolean sikuliimgcmp() throws InterruptedException {
 		Screen s = new Screen();
-		Pattern p = new Pattern("F:\\Azar\\SeleniumMaven_Git_Jenkins\\SeleniumEasyLogo.PNG");
-		boolean out = SEImg.equals(p);
+		Pattern p = new Pattern("F:\\Azar\\SeleniumMaven_Git_Jenkins\\SeleniumEasyLogo1.PNG");
+		Boolean out = p.equals(SEImg);
 		return out;
 	}
 	

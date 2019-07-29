@@ -5,9 +5,9 @@
     <classes>
       <class name="com.qa.easy.testcases.Demotest">
         <methods>
+          <include name="sikuliimg"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="searchfilter"/>
         </methods>
       </class> <!-- com.qa.easy.testcases.Demotest -->
     </classes>

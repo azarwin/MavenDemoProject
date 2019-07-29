@@ -40,8 +40,8 @@ public class Demotest extends TestBase{
 	}
 	
 	@Test(priority=2)
-	public void sikuliimg() {
-		boolean flag = demopage.sikuliimgcmp();
+	public void sikuliimg() throws InterruptedException {
+		Boolean flag = demopage.sikuliimgcmp();
 		System.out.println(flag);
 		Assert.assertTrue(flag);
 		demopage.SEImg.click();
