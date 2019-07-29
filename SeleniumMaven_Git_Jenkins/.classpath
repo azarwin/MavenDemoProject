@@ -28,7 +28,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="F:/Installation/sikulixapi.jar"/>
 	<classpathentry kind="lib" path="F:/Installation/sikulixsetup-1.1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/AZARUDEEN/Downloads/selenium-java-3.141.59/libs/byte-buddy-1.8.15.jar"/>
@@ -40,6 +39,6 @@
 	<classpathentry kind="lib" path="C:/Users/AZARUDEEN/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="F:/Installation/jar_files/bsh-2.0b6.jar"/>
 	<classpathentry kind="lib" path="F:/Installation/jar_files/jcommander-1.72.jar"/>
-	<classpathentry kind="lib" path="F:/Installation/jar_files/testng-6.14.3.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
