@@ -1,6 +1,5 @@
 package com.qa.easy.testcases;
 
-import java.sql.Driver;
 import java.util.ArrayList;
 
 import org.apache.log4j.BasicConfigurator;
